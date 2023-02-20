@@ -3,3 +3,7 @@ body{
     font-size: 40px;
     text-align: center;
 }
+
+#click-el{
+    padding: 30px;
+}
