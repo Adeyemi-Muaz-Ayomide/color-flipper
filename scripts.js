@@ -7,6 +7,11 @@ clickEl.addEventListener('click' , function() {
 
 });
 
+function getRandomColor() {
+    let randomColor = Math.floor(Math.random() * 4);
+    return arrayColors[randomColor]
+}
+console.log( getRandomColor() )
 
 
 
