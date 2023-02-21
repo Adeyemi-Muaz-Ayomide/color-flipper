@@ -4,9 +4,18 @@ body{
     text-align: center;
 }
 
-#click-el{
-    padding: 30px;
-    font-size: 25px;
+#click-el, #click-hex{
+    padding: 20px;
+    font-size: 20px;
     border: none;
     border-radius: 7px;
 }
+h2{
+    background: black;
+    padding: 10px;
+    color: beige;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
