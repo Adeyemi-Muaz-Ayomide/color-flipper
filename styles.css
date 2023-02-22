@@ -1,14 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
     text-align: center;
+    font-family: 'roboto';
 }
 
+
 #click-el, #click-hex{
-    padding: 20px;
+    padding: 15px;
     font-size: 20px;
     border: none;
     border-radius: 7px;
+    font-family: 'roboto';
 }
 h2{
     background: black;
