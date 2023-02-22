@@ -6,14 +6,40 @@ body{
     text-align: center;
     font-family: 'roboto';
 }
-
-
+h1{
+    color: #1d3557;
+    letter-spacing: 0.4em;
+}
+.animation {
+    animation-name: text-animation;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+  
+@keyframes text-animation {
+    from {
+      transform: translateX(-50%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+}
 #click-el, #click-hex{
     padding: 15px;
     font-size: 20px;
     border: none;
     border-radius: 7px;
     font-family: 'roboto';
+    cursor: pointer;;
+    /* display: inline-block; */
+    padding: 15px 25px;
+    text-decoration: none;
+    /* outline: none; */
+    box-shadow: 0 9px #999;
 }
 h2{
     background: black;
@@ -22,5 +48,22 @@ h2{
     border-radius: 10px;
     margin-left: 20px;
     margin-right: 20px;
+    text-transform: uppercase;
 }
 
+#click-el:hover {
+    background-color: #e5e5e5;
+}
+#click-hex:hover {
+    background-color: #e5e5e5;
+}
+#click-el:active {
+    background-color: #edede9;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+} 
+#click-hex:active {
+    background-color: #edede9;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+} 
